@@ -5,6 +5,8 @@ import type { SponsorsManager } from './license/index';
 import { SPONSORS } from './pro';
 import { DEFAULT_SETTINGS, TableCsvSettingTab, normalizeSettings, type TableCsvSettings } from './settings';
 import { ExportModal, BatchModal } from './modals';
+import { setupHello } from './hello/index';
+import WHATS_NEW from './whats-new.json';
 
 export interface BatchOutput { name: string; csv: string }
 export interface BatchSource { file: TFile; snapshot: string; outputs: BatchOutput[] }
@@ -21,6 +23,8 @@ export default class TableCsvEncodingPlugin extends Plugin {
  pro: SponsorsManager | null = null;
  modal: ExportModal | BatchModal | null = null;
  async onload(): Promise<void> {
+   // First: "What's new" reads its state before the settings load (packages/hello). It does not wait.
+   setupHello(this, WHATS_NEW);
   await this.loadSettings();
   const pro = createGitHubSponsors(this.app, this.manifest.id, SPONSORS, this);
   pro.init(); this.pro = pro;
