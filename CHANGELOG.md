@@ -1,5 +1,11 @@
 # table-csv-encoding
 
+## 1.1.1
+
+### Patch Changes
+
+- The Pro notice for folder table export in Table CSV Encoding now has a Sponsor on GitHub button.
+
 ## 1.1.0
 
 ### Minor Changes

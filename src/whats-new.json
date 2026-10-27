@@ -1,15 +1,9 @@
 {
 	"id": "table-csv-encoding",
 	"name": "Table CSV Encoding",
-	"version": "1.1.0",
+	"version": "1.1.1",
 	"changes": [
-		"New Send feedback command. It opens a page where you can report a problem or suggest an idea.",
-		"Scans the vault when the folder path is empty or root.",
-		"Adds Markdown table export with a UTF-8 BOM option, a CSV preview, and new file names."
-	],
-	"changes_user": [
-		"New Send feedback command. It opens a page where you can report a problem or suggest an idea.",
-		"Settings now end with a More from NoteMods group, where you can turn this tab off or open it again."
+		"The Pro notice for folder table export in Table CSV Encoding now has a Sponsor on GitHub button."
 	],
 	"tip": "Turn on the BOM option when a spreadsheet app needs a clear UTF-8 signal. The CSV file then starts with the bytes EF BB BF.",
 	"thanks": "Hi, I am Michael, a solo developer in Poland. Table CSV Encoding is one of over 100 small plugins that I make. Thank you for trusting it with your tables.",
