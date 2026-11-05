@@ -52,7 +52,7 @@ A batch does not overwrite files from an earlier batch. If a write fails after s
 
 ## Install
 
-Requires Obsidian 1.13.4 or later. The settings tab uses the public settings API from that release series.
+Requires Obsidian 1.13.4 or later.
 
 For a manual install, obtain `main.js`, `manifest.json`, and `styles.css` from the plugin release. Create `.obsidian/plugins/table-csv-encoding` in the vault. Copy those files into that folder. Reload Obsidian and enable Table CSV Encoding under Settings → Community plugins.
 
@@ -95,6 +95,8 @@ The plugin reads the source and writes a new CSV file. It does not replace table
 ## Payment, account and network
 
 The core features are free. Pro features need a GitHub Sponsors sponsorship of theluckystrike: $5 a month or more, or $15 once. A total payment of $15 meets the payment requirement for Pro without further payment. Sign-in and the checks below still apply. Your notes stay readable and editable with or without Pro.
+
+[One payment turns on Pro in every NoteMods plugin](https://notemods.com/pro/).
 
 GitHub handles the payment. Sponsor at https://github.com/sponsors/theluckystrike?frequency=one-time&metadata_source=table-csv-encoding. You need no account for the free features. Pro needs the GitHub account that sponsors.
 
