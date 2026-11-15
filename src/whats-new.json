@@ -1,7 +1,7 @@
 {
 	"id": "table-csv-encoding",
 	"name": "Table CSV Encoding",
-	"version": "1.1.2",
+	"version": "1.1.3",
 	"changes": [
 		"The Pro notice of Table CSV Encoding now says that one payment turns on Pro in every NoteMods plugin.",
 		"The Pro notice for folder table export in Table CSV Encoding now has a Sponsor on GitHub button."
